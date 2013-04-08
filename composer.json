@@ -1,0 +1,20 @@
+{
+    "name": "ikr/template0",
+    "description": "A template for a Vagrant/Salt-based php/nginx project",
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Ivan Krechetov",
+            "email": "ivan.krechetov@gmail.com"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.4.0"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "3.7.x"
+    }
+}
