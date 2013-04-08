@@ -10,7 +10,7 @@ TBD
 
 1. Install [VirtualBox and Vagrant](http://docs.vagrantup.com/v1/docs/getting-started/index.html)
 
-2. Run `vagrant gem install vagrant-salt`
+2. Run `vagrant plugin install vagrant-salt`
 
 5. Get the Ubuntu 12.10 Quantal x86_64 base box: `vagrant box add quantal64
    https://github.com/downloads/roderik/VagrantQuantal64Box/quantal64.box`
