@@ -19,12 +19,12 @@ TBD
 
 From this project's root run:
 
-    deployment(master)$ vagrant up
+    ~/Sandbox/template0(master)$ vagrant up
 
 That will provision the development VM start-up. When the provisioning is done, you can ssh into the
 guest OS by
 
-    deployment(master)$ vagrant ssh
+    ~/Sandbox/template0(master)$ vagrant ssh
 
 and [continue the installation there](http://memegenerator.net/instance/33516935).
 
