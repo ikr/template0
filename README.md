@@ -12,8 +12,8 @@ TBD
 
 2. Run `vagrant gem install vagrant-salt`
 
-5. Get the Ubuntu Server 12.10 amd64 Minimal base box: `vagrant box
-   add quantal64 http://goo.gl/wxdwM`
+5. Get the Ubuntu 12.10 Quantal x86_64 base box: `vagrant box add quantal64
+   https://github.com/downloads/roderik/VagrantQuantal64Box/quantal64.box`
 
 ## Host OS steps
 
