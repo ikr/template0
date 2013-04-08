@@ -30,8 +30,12 @@ and [continue the installation there](http://memegenerator.net/instance/33516935
 
 ## Guest OS steps
 
-    vagrant@quantal64:~> cd /vagrant
-    vagrant@quantal64:/vagrant> ./guest_os_install.sh
+    vagrant@quantal64:/vagrant$ cd /vagrant
+    vagrant@quantal64:/vagrant$ ./guest_os_install.sh
+
+## Running the tests
+
+    vagrant@quantal64:/vagrant$ ./vendor/bin/phpunit
 
 # Change log
 
