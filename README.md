@@ -30,8 +30,8 @@ and [continue the installation there](http://memegenerator.net/instance/33516935
 
 ## Guest OS steps
 
-    vagrant@aldan:~> cd /vagrant
-    vagrant@aldan:/vagrant> ./guest_os_install.sh
+    vagrant@quantal64:~> cd /vagrant
+    vagrant@quantal64:/vagrant> ./guest_os_install.sh
 
 # Change log
 
