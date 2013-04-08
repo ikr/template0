@@ -18,3 +18,5 @@ php5-fpm:
 /etc/php5/conf.d/custom.ini:
   file.managed:
     - source: salt://php/custom.ini
+    - require:
+      - pkg: php5
