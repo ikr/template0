@@ -1,7 +1,7 @@
 # -*- mode: ruby -*-
 
 Vagrant::Config.run do |config|
-  config.vm.box = "quantal64"
+  config.vm.box = "precise64"
   config.vm.forward_port 80, 8000
 
   config.vm.share_folder "vagrant-root", "/vagrant", "."

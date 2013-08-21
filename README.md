@@ -12,8 +12,7 @@ TBD
 
 2. Run `vagrant plugin install vagrant-salt`
 
-5. Get the Ubuntu 12.10 Quantal x86_64 base box: `vagrant box add quantal64
-   https://github.com/downloads/roderik/VagrantQuantal64Box/quantal64.box`
+5. Get the Ubuntu 12.04 Precise x86_64 base box: `vagrant box add precise64 http://files.vagrantup.com/precise64.box`
 
 ## Host OS steps
 
@@ -26,14 +25,9 @@ guest OS by
 
     ~/Sandbox/template0(master)$ vagrant ssh
 
-and [continue the installation there](http://memegenerator.net/instance/33516935).
-
-## Guest OS steps
-
-    vagrant@quantal64:/vagrant$ cd /vagrant
-    vagrant@quantal64:/vagrant$ ./guest_os_install.sh
-
 ## Running the tests
+
+In the guest OS'es `/vagrant` directory say:
 
     vagrant@quantal64:/vagrant$ ./vendor/bin/phpunit
 
