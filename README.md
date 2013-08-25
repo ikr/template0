@@ -12,7 +12,7 @@ TBD
 
 2. Run `vagrant plugin install vagrant-salt`
 
-5. Get the Ubuntu 12.04 Precise x86_64 base box: `vagrant box add precise64 http://files.vagrantup.com/precise64.box`
+3. Get the Ubuntu 12.04 Precise x86_64 base box: `vagrant box add precise64 http://files.vagrantup.com/precise64.box`
 
 ## Host OS steps
 
